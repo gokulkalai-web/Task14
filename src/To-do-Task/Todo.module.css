@@ -1,0 +1,41 @@
+.root {
+  margin: 16px;
+  width: 100%;
+  text-align: center;
+}
+
+.root>input {
+  padding: 4px;
+  margin: 8px;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo>span {
+  margin-left: 16px;
+  color:rgb(148, 203, 162);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  padding: 10px;
+  margin-top: 30px;
+}
+.Main {
+  padding: 10px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.Main >  input {
+  padding: 4px;
+  margin: 8px;
+}
